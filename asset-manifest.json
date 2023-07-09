@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tinder-swipe-jobs/static/css/main.038c72d5.css",
+    "main.js": "/tinder-swipe-jobs/static/js/main.7bed4cd6.js",
+    "index.html": "/tinder-swipe-jobs/index.html",
+    "main.038c72d5.css.map": "/tinder-swipe-jobs/static/css/main.038c72d5.css.map",
+    "main.7bed4cd6.js.map": "/tinder-swipe-jobs/static/js/main.7bed4cd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.038c72d5.css",
+    "static/js/main.7bed4cd6.js"
+  ]
+}
