@@ -1,0 +1,59 @@
+.main-container {
+  min-width: 360px;
+  width: 25vw;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  align-items: center;
+  overflow: hidden;
+  /* box-shadow: inset 0px 0px 5px #333; */
+  /* border-radius: 10px; */
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .main-container {
+    width: 90vw;
+  }
+}
+
+.sticky-position {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.drag-left {
+  animation-name: moveLeftAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transition: all 2s ease-in-out;
+}
+
+@keyframes moveLeftAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: translateX(-150%) rotate(15deg);
+    opacity: 0;
+  }
+}
+
+.drag-right {
+  animation-name: moveRightAnimation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transition: all 2s ease-in-out;
+}
+
+@keyframes moveRightAnimation {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  100% {
+    transform: translateX(150%) rotate(15deg);
+    opacity: 0;
+  }
+}
